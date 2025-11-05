@@ -18,13 +18,13 @@
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
-:root { 
-  --background-color: #FFFFFF; /* Background color for the entire website, including individual sections */
-  --default-color: rgba(255, 255, 255, 0.8); /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #ffffff; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #008870; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #1f1f23; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+:root {
+  --background-color: #F3F3F3; /* cinza claro*/
+  --default-color: #1A1A1A; /* texto cinza bem escuro */
+  --heading-color: #003344; /* título em azul escuro */
+  --accent-color: #008870; /* mantém seu verde da identidade */
+  --surface-color: #FFFFFF; /* cards/branco */
+  --contrast-color: #000000;
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
