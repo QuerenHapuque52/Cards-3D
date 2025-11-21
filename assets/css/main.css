@@ -2318,26 +2318,26 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Contact Section
+# campanha Section
 --------------------------------------------------------------*/
 .campanha .container {
   max-width: 1280px;
 }
 
-.campanha .contact-wrapper {
+.campanha .campanha-wrapper {
   display: grid;
   grid-template-columns: 1fr;
   gap: 40px;
 }
 
 @media (min-width: 992px) {
-  .campanha .contact-wrapper {
+  .campanha .campanha-wrapper {
     grid-template-columns: 38% 62%;
     gap: 30px;
   }
 }
 
-.campanha .contact-info-panel {
+.campanha .campanha-info-panel {
   background: linear-gradient(145deg, var(--accent-color), color-mix(in srgb, var(--accent-color), #1a4372 40%));
   color: var(--contrast-color);
   border-radius: 20px;
@@ -2348,24 +2348,24 @@ section,
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
 }
 
-.campanha .contact-info-panel .contact-info-header {
+.campanha .campanha-info-panel .campanha-info-header {
   margin-bottom: 30px;
 }
 
-.campanha .contact-info-panel .contact-info-header h3 {
+.campanha .campanha-info-panel .campanha-info-header h3 {
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 15px;
   color: var(--contrast-color);
 }
 
-.campanha .contact-info-panel .contact-info-header p {
+.campanha .campanha-info-panel .campanha-info-header p {
   font-size: 15px;
   opacity: 0.85;
   line-height: 1.6;
 }
 
-.campanha .contact-info-cards {
+.campanha .campanha-info-cards {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
@@ -2373,7 +2373,7 @@ section,
 }
 
 @media (min-width: 576px) and (max-width: 991px) {
-  .campanha .contact-info-cards {
+  .campanha .campanha-info-cards {
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -2457,7 +2457,7 @@ section,
   transform: translateY(-5px);
 }
 
-.campanha .contact-form-panel {
+.campanha .campanha-form-panel {
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -2557,7 +2557,7 @@ section,
 }
 
 @media (max-width: 768px) {
-  .campanha .contact-info-panel {
+  .campanha .campanha-info-panel {
     padding: 30px 25px;
   }
 
@@ -2940,47 +2940,47 @@ section,
   color: var(--accent-color);
 }
 
-.utilidades-details .utilidades-sidebar .contact-card {
+.utilidades-details .utilidades-sidebar .campanha-card {
   background: linear-gradient(135deg, var(--accent-color), color-mix(in srgb, var(--accent-color), #000 20%));
   padding: 30px;
   border-radius: 10px;
   color: var(--contrast-color);
 }
 
-.utilidades-details .utilidades-sidebar .contact-card .contact-content h4 {
+.utilidades-details .utilidades-sidebar .campanha-card .campanha-content h4 {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 15px;
   color: var(--contrast-color);
 }
 
-.utilidades-details .utilidades-sidebar .contact-card .contact-content p {
+.utilidades-details .utilidades-sidebar .campanha-card .campanha-content p {
   margin-bottom: 20px;
   opacity: 0.9;
   font-size: 14px;
   line-height: 1.6;
 }
 
-.utilidades-details .utilidades-sidebar .contact-card .contact-content .contact-info {
+.utilidades-details .utilidades-sidebar .campanha-card .campanha-content .campanha-info {
   margin-bottom: 25px;
 }
 
-.utilidades-details .utilidades-sidebar .contact-card .contact-content .contact-info .contact-item {
+.utilidades-details .utilidades-sidebar .campanha-card .campanha-content .campanha-info .campanha-item {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
 }
 
-.utilidades-details .utilidades-sidebar .contact-card .contact-content .contact-info .contact-item i {
+.utilidades-details .utilidades-sidebar .campanha-card .campanha-content .campanha-info .campanha-item i {
   margin-right: 10px;
   opacity: 0.8;
 }
 
-.utilidades-details .utilidades-sidebar .contact-card .contact-content .contact-info .contact-item span {
+.utilidades-details .utilidades-sidebar .campanha-card .campanha-content .campanha-info .campanha-item span {
   font-size: 14px;
 }
 
-.utilidades-details .utilidades-sidebar .contact-card .contact-content .btn {
+.utilidades-details .utilidades-sidebar .campanha-card .campanha-content .btn {
   background: var(--contrast-color);
   color: var(--accent-color);
   border: none;
@@ -2990,7 +2990,7 @@ section,
   transition: all 0.3s ease;
 }
 
-.utilidades-details .utilidades-sidebar .contact-card .contact-content .btn:hover {
+.utilidades-details .utilidades-sidebar .campanha-card .campanha-content .btn:hover {
   background: color-mix(in srgb, var(--contrast-color), transparent 10%);
   transform: translateY(-2px);
 }
