@@ -1589,7 +1589,7 @@ section,
 
 .Testemunho .testimonial-profile {
   padding: 20px 30px;
-  background-color: color-mix(in srgb, var(--heading-color), transparent 95%);
+  background-color: color-mix(in srgb, var(--heading-color), transparent 50%);
   border-top: 1px solid color-mix(in srgb, var(--heading-color), transparent 90%);
 }
 
