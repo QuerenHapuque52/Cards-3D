@@ -20,7 +20,7 @@
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root {
   --background-color: #F7F9FB;
-  --surface-color: #ff741f;
+  --surface-color: #ffffff;
   --heading-color: #1c4593;
   --default-color: #4E5152;
   --accent-color: #ff8da5;
