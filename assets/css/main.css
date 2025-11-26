@@ -1470,7 +1470,7 @@ section,
 }
 
 .steps .process-item .step-content p {
-  color: color-mix(in srgb, var(--default-color), transparent 25%);
+  color: color-mix(in srgb, var(--background-color:), transparent 25%);
   font-size: 0.95rem;
   line-height: 1.6;
   margin: 0;
