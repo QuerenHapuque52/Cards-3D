@@ -1541,13 +1541,13 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Testimonials Section
+# Testemunho Section
 --------------------------------------------------------------*/
-.testimonials .swiper-wrapper {
+.Testemunho .swiper-wrapper {
   height: auto !important;
 }
 
-.testimonials .testimonial-card {
+.Testemunho .testimonial-card {
   background: var(--surface-color);
   border-radius: 15px;
   overflow: hidden;
@@ -1558,17 +1558,17 @@ section,
   transition: 0.3s;
 }
 
-.testimonials .testimonial-card:hover {
+.Testemunho .testimonial-card:hover {
   border-color: var(--accent-color);
 }
 
-.testimonials .testimonial-content {
+.Testemunho .testimonial-content {
   padding: 40px 30px 30px;
   position: relative;
   flex-grow: 1;
 }
 
-.testimonials .testimonial-content p {
+.Testemunho .testimonial-content p {
   font-size: 16px;
   line-height: 1.7;
   position: relative;
@@ -1577,7 +1577,7 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 10%);
 }
 
-.testimonials .testimonial-content .quote-icon {
+.Testemunho .testimonial-content .quote-icon {
   position: absolute;
   top: 15px;
   left: 30px;
@@ -1587,28 +1587,28 @@ section,
   opacity: 0.8;
 }
 
-.testimonials .testimonial-profile {
+.Testemunho .testimonial-profile {
   padding: 20px 30px;
   background-color: color-mix(in srgb, var(--heading-color), transparent 95%);
   border-top: 1px solid color-mix(in srgb, var(--heading-color), transparent 90%);
 }
 
-.testimonials .rating {
+.Testemunho .rating {
   margin-bottom: 15px;
 }
 
-.testimonials .rating i {
+.Testemunho .rating i {
   color: #ffc107;
   margin-right: 3px;
   font-size: 14px;
 }
 
-.testimonials .profile-info {
+.Testemunho .profile-info {
   display: flex;
   align-items: center;
 }
 
-.testimonials .profile-info img {
+.Testemunho .profile-info img {
   width: 55px;
   height: 55px;
   border-radius: 50%;
@@ -1617,61 +1617,61 @@ section,
   margin-right: 15px;
 }
 
-.testimonials .profile-info div {
+.Testemunho .profile-info div {
   flex: 1;
 }
 
-.testimonials .profile-info h3 {
+.Testemunho .profile-info h3 {
   margin: 0 0 5px;
   font-size: 16px;
   font-weight: 700;
   color: var(--heading-color);
 }
 
-.testimonials .profile-info h4 {
+.Testemunho .profile-info h4 {
   margin: 0;
   font-size: 13px;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
   font-weight: 500;
 }
 
-.testimonials .swiper-pagination {
+.Testemunho .swiper-pagination {
   margin-top: 30px;
   position: relative;
 }
 
-.testimonials .swiper-pagination .swiper-pagination-bullet {
+.Testemunho .swiper-pagination .swiper-pagination-bullet {
   width: 10px;
   height: 10px;
   background-color: color-mix(in srgb, var(--accent-color), transparent 60%);
   opacity: 1;
 }
 
-.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+.Testemunho .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--accent-color);
   width: 25px;
   border-radius: 5px;
 }
 
 @media (max-width: 767px) {
-  .testimonials .testimonial-content {
+  .Testemunho .testimonial-content {
     padding: 30px 20px 20px;
   }
 
-  .testimonials .testimonial-content p {
+  .Testemunho .testimonial-content p {
     font-size: 15px;
   }
 
-  .testimonials .testimonial-content .quote-icon {
+  .Testemunho .testimonial-content .quote-icon {
     font-size: 36px;
     left: 20px;
   }
 
-  .testimonials .testimonial-profile {
+  .Testemunho .testimonial-profile {
     padding: 15px 20px;
   }
 
-  .testimonials .profile-info img {
+  .Testemunho .profile-info img {
     width: 45px;
     height: 45px;
   }
