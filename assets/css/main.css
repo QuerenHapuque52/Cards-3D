@@ -1548,7 +1548,7 @@ section,
 }
 
 .Testemunho .testimonial-card {
-  background: var(--surface-color);
+  background: var(--heading-color);
   border-radius: 15px;
   overflow: hidden;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
