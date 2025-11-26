@@ -1582,14 +1582,14 @@ section,
   top: 15px;
   left: 30px;
   font-size: 42px;
-  color: color-mix(in srgb, var(--accent-color), transparent 85%);
+  color: color-mix(in srgb, var(--accent-color), transparent 95%);
   z-index: 0;
   opacity: 0.8;
 }
 
 .Testemunho .testimonial-profile {
   padding: 20px 30px;
-  background-color: color-mix(in srgb, var(--heading-color), transparent 50%);
+  background-color: color-mix(in srgb, var(--heading-color), transparent 95%);
   border-top: 1px solid color-mix(in srgb, var(--heading-color), transparent 90%);
 }
 
@@ -1631,7 +1631,7 @@ section,
 .Testemunho .profile-info h4 {
   margin: 0;
   font-size: 13px;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color: color-mix(in srgb, var(--default-color), transparent 55%);
   font-weight: 500;
 }
 
